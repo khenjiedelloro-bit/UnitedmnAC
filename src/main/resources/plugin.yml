@@ -1,0 +1,13 @@
+name: UnitedmnAC
+version: 1.0.0
+main: com.example.unitednmac.UnitedNMAC
+api-version: '26.2'
+author: YourName
+description: Anti-cheat for reach, crosshair hit checks, storage hiding and ore hiding.
+permissions:
+  unitednmac.alerts:
+    description: Receive anti-cheat alerts
+    default: op
+  unitednmac.bypass:
+    description: Skip anti-cheat checks
+    default: false
